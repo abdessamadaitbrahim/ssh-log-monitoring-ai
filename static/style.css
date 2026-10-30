@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f9; /* Couleur de fond douce */
+    color: #444; /* Couleur du texte principale */
+    line-height: 1.6; /* Améliore la lisibilité */
+}
+
+h1 {
+    color: #333; /* Couleur du titre */
+    text-align: center; /* Centrer le titre */
+    font-size: 2.5em; /* Taille du titre */
+    margin-bottom: 20px; /* Espacement en bas du titre */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Ombre pour le titre */
+}
+
+nav {
+    margin-bottom: 20px;
+    background-color: #007BFF; /* Couleur de fond de la navigation */
+    padding: 10px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre pour la navigation */
+}
+
+nav a {
+    color: white; /* Couleur des liens */
+    text-decoration: none; /* Pas de soulignement */
+    margin: 0 15px; /* Espacement entre les liens */
+    font-weight: bold; /* Mettre en gras les liens */
+    transition: color 0.3s; /* Transition douce pour le changement de couleur */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Souligner au survol */
+    color: #ffcc00; /* Couleur au survol */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none;
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer;
+    font-size: 1em; /* Taille de la police du bouton */
+    transition: background-color 0.3s, transform 0.2s; /* Transition douce */
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+    transform: scale(1.05); /* Effet d'agrandissement au survol */
+}
+
+footer {
+    margin-top: 20px; /* Espacement en haut du pied de page */
+    text-align: center; /* Centrer le texte du pied de page */
+    font-size: 0.9em; /* Taille de la police du pied de page */
+    color: #777; /* Couleur du texte du pied de page */
+}
+
+footer a {
+    color: #007BFF; /* Couleur des liens dans le pied de page */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Souligner au survol */
+}

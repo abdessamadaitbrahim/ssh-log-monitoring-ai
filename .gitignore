@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+.venv/
+.pytest_cache/
+
+# Logs générés (contiennent IP et noms d'utilisateurs)
+logs/*.log
+tests/*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
