@@ -41,7 +41,7 @@ This project aims to monitor SSH authentication logs in real time and detect sus
 
 ## System Architecture
 
-![System Architecture](docs/images/architecture.jpg)
+![System Architecture](docs/architecture.jpg)
 
 The system consists of four main components:
 
@@ -58,11 +58,11 @@ The system consists of four main components:
 
 ### Web Dashboard
 
-![Web Dashboard](docs/images/web-logs.jpg)
+![Web Dashboard](docs/web-logs.jpg)
 
 ### Email Alerts
 
-![Email Alerts](docs/images/email-alerte.jpg)
+![Email Alerts](docs/email-alerte.jpg)
 
 ---
 
